@@ -1,7 +1,8 @@
 public class Second_Max {
     public static void main(String[] args) {
         int[] arr = { 1, 6, 3, 8, 10, 4 };
-        int max1 = 0, max2 = 0;
+        int max1, max2;
+        max1 = max2 = arr[0];
         if (arr[0] > arr[1]) {
             max1 = arr[0];
             max2 = arr[1];
