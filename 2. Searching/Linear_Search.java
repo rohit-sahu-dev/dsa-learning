@@ -14,7 +14,7 @@ public class Linear_Search {
                 break;
             }
         }
-        if (flag == true)
+        if (flag)
             System.out.println("ELement found at index : "+ i);
         else
             System.out.println("Element not found.");
